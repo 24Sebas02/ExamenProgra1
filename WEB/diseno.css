@@ -1,0 +1,50 @@
+main{
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+}
+main header{
+    display: flex;
+}
+main header img{
+    width: 250px;
+    height: 150px;
+    margin-left: 50px;
+}
+main header input{
+    width: 150px;
+    margin-top: 50px;
+    max-height: 40px;
+}
+.menuCabecera{
+    display: flex;
+    padding-top: 50px;
+}
+.menuCabecera li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: DINPro, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+}
+nav{
+    display: flex;
+    background-color: white;
+}
+nav ol li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-family: DINPro, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: gray;
+}
+nav ol li li:nth-of-type(7) {
+    color:orangered;
+}
+
+
+
